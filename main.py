@@ -94,10 +94,6 @@ def generate_maze(maze):
 
     return maze
 
-
-def add_makes(maze):
-    pass
-
 # Write the maze list into a csv file
 def to_csv(maze):
     with open('maze.csv', 'w+', newline='') as f:
