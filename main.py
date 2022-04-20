@@ -100,7 +100,7 @@ def add_makes(maze):
 
 # Write the maze list into a csv file
 def to_csv(maze):
-    with open('Assets/maze.csv', 'w+', newline='') as f:
+    with open('maze.csv', 'w+', newline='') as f:
         f.truncate()
         writer = csv.writer(f)
         writer.writerows(maze)
